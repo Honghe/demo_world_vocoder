@@ -18,7 +18,7 @@ x, fs = soundfile.read(filename)
 
 原始音频
 
-<audio  controls="controls" src="./data/demo.wav" />
+<audio  controls="controls" src="./data/demo.wav" ></audio>
 
 
 ```python
@@ -54,7 +54,7 @@ _y = pw.synthesize(_f0, _sp, _ap, fs, args.frame_period)
 soundfile.write('./data/demo_without_f0_refinement.wav', _y, fs)
 ```
 
-<audio  controls="controls" src="./data/demo_without_f0_refinement.wav" />
+<audio  controls="controls" src="./data/demo_without_f0_refinement.wav" ></audio>
 
 加8度
 
